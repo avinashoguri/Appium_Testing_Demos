@@ -26,10 +26,12 @@ public class Base {
 
 		DesiredCapabilities cap=new DesiredCapabilities();
 
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "AVIPie");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"ZY2224FLQR");
+		//AVIPie
+		
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
-		cap.setCapability(MobileCapabilityType.VERSION, "9.0");
-		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+		cap.setCapability(MobileCapabilityType.VERSION, "5.1.1");//9.0
+		cap.setCapability(MobileCapabilityType.PLATFORM, "Android");
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 		
 		AndroidDriver<AndroidElement> driver=new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);

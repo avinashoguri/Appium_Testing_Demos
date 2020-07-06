@@ -7,23 +7,31 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.4.0</version>
+			<version>3.141.59</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.8.7</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 		<dependency>
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
-			<version>3.2.0</version>
+			<version>7.0.0</version>
 		</dependency>
+
+
+		<!-- Thanks for using https://jar-download.com -->
+
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-		
+
 
 
 
