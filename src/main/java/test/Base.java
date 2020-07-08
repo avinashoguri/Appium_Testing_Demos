@@ -20,17 +20,21 @@ public class Base {
 		// TODO Auto-generated method stub
 
 		File f=new File("src/main/java");
-		File fs=new File(f,"ApiDemos-debug.apk");
+		File fs=new File(f,"General-Store.apk");
 		//ApiDemos-debug
 		//API Demos for Android_v1.9.0_apkpure.com.apk
-
+		//General-Store.apk
 		DesiredCapabilities cap=new DesiredCapabilities();
 
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"ZY2224FLQR");
+		//cap.setCapability(MobileCapabilityType.DEVICE_NAME,"ZY2224FLQR");
 		//AVIPie
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"AVIPie");
+		
 		
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
-		cap.setCapability(MobileCapabilityType.VERSION, "5.1.1");//9.0
+		//cap.setCapability(MobileCapabilityType.VERSION, "5.1.1");//9.0
+		cap.setCapability(MobileCapabilityType.VERSION, "9.0");//9.0
+		
 		cap.setCapability(MobileCapabilityType.PLATFORM, "Android");
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 		
