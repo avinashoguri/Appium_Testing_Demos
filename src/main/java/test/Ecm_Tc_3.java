@@ -13,6 +13,7 @@ public class Ecm_Tc_3 extends Base{
 
 	public static void main(String[] args) throws MalformedURLException {
 		// TODO Auto-generated method stub
+		// adding to cart
 		AndroidDriver<AndroidElement> driver=capabulities();
 
 		driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Hello");
